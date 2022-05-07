@@ -179,8 +179,19 @@ body {
 
 @media (max-width: 500px) {
 
+    body {
+        background-color: #332E33;
+    }
+
     #login {
-        width: 90vw;
+        top: 40%;
+        width: 100vw;
         padding: 30px;
+        background: none;
+        box-shadow: none;
+    }
+
+    .btn-eye {
+        right: 65px;
     }
 }
