@@ -185,14 +185,19 @@ body {
 
     #login {
         top: 0;
-        transform: translate(0, -50%);
+        left: 0;
+        transform: translate(0%, 0%);
         width: 100vw;
-        padding: 30px;
+        padding: 25px;
         background: none;
         box-shadow: none;
     }
+    
+    .login-field {
+      width: 100%;
+    }
 
     .btn-eye {
-        right: 65px;
+        right: 40px;
     }
 }
