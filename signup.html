@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/82cb9cfa0e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="login">
+        <h1>Login</h1>
+        <form id="login-form">
+            <div class="login-field">
+                <i class="fas fa-user"></i>
+                <input type="text" id="login-user" placeholder="Full name" required autocomplete="off" autofocus>
+            </div>
+            <div class="login-field">
+                <i class="fas fa-user"></i>
+                <input type="text" id="login-user" placeholder="User" required autocomplete="off" >
+            </div>
+            <div class="login-field">
+                <i class="fas fa-phone"></i>
+                <input type="tel" id="login-user" placeholder="Phone number" required autocomplete="off" >
+            </div>
+            <div class="login-field">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="login-user" placeholder="E-mail" required autocomplete="off">
+            </div>
+            <div class="login-field">
+                <i class="fas fa-lock"></i>
+                <div class="input-pass-field">
+                    <input type="password" id="pass-user" placeholder="Password" required>
+                    <button onclick="eyeFunction()" type="button" class="btn-eye">
+                        <i class="fas fa-eye" id="eye-open"></i>
+                        <i class="fas fa-eye-slash disable" id="eye-close"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="login-field-terms">
+                <input type="checkbox" id="remember" required>
+                <label for="remember">I agree to all to the <br> <a class="links" href="#">Term, Privacy Policy</a>.</label>
+            </div>
+            <button type="submit" class="btn-signup">create account</button>
+        </form>
+        <p>Already have an account? <a class="links" href="index.html">Log in.</a></p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
