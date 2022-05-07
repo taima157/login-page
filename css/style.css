@@ -176,3 +176,11 @@ body {
     background-color: #1E1E1E;
     border: 2px solid #b8b8b8;
 }
+
+@media (max-width: 500px) {
+
+    #login {
+        width: 90vw;
+        padding: 30px;
+    }
+}
