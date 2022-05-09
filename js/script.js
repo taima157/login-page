@@ -1,6 +1,3 @@
-
-
-
 function eyeFunction() {
     document.querySelector("#eye-open").classList.toggle("disable")
     document.querySelector("#eye-close").classList.toggle("disable")
